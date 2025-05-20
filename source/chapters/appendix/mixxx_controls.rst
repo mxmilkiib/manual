@@ -832,6 +832,18 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    .. versionadded:: 2.0.0
 
 
+  .. mixxx:control:: [ChannelN],beats_translate_move
+                     [PreviewDeckN],beats_translate_move
+                     [SamplerN],beats_translate_move
+
+   Move :term:`beatgrid` to an earlier or later position.
+
+   :range: binary
+   :feedback: The beatgrid moves left or right by a small amount.
+
+   .. versionadded:: 2.4.0
+
+
 .. mixxx:control:: [ChannelN],shift_cues_earlier
                    [PreviewDeckN],shift_cues_earlier
                    [SamplerN],shift_cues_earlier
