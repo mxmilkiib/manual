@@ -243,7 +243,7 @@ Right-clicking on selected tracks in the track list reveals the context menu:
 
 * **Change BPM**
 
-    * Allows to change the :term:`BPM` to 50%, 66%, 75%, 133,33%, 150%, or
+    * Allows to change the :term:`BPM` to 50%, 66%, 75%, 125%, 133,33%, 150%, or
       200% of the BPM set by Mixxx when :ref:`analyzing <library-analyze>`
       the tracks. If many of the detected BPM values are incorrect, you may try
       other settings in the :ref:`Analyzer Settings <configuration-bpm-detection>`

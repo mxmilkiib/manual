@@ -837,6 +837,90 @@ Any control listed above for :mixxx:cogroupref:`[ChannelN]` will work for a samp
    .. versionadded:: 2.0.0
 
 
+.. mixxx:control:: [ChannelN],beats_set_halve
+                   [PreviewDeckN],beats_set_halve
+                   [SamplerN],beats_set_halve
+
+   Scale the :term:`BPM` to half of the current value.
+
+   :range: binary
+   :feedback: The :term:`beatgrid` lines move further apart to double distance.
+
+   .. versionadded:: 2.7.0
+
+
+.. mixxx:control:: [ChannelN],beats_set_twothirds
+                   [PreviewDeckN],beats_set_twothirds
+                   [SamplerN],beats_set_twothirds
+
+   Scale the :term:`BPM` to 2/3 of the current value.
+
+   :range: binary
+   :feedback: The :term:`beatgrid` lines adjust to 2/3 BPM.
+
+   .. versionadded:: 2.7.0
+
+
+.. mixxx:control:: [ChannelN],beats_set_threefourths
+                   [PreviewDeckN],beats_set_threefourths
+                   [SamplerN],beats_set_threefourths
+
+   Scale the :term:`BPM` to 3/4 of the current value.
+
+   :range: binary
+   :feedback: The :term:`beatgrid` lines adjust to 3/4 BPM.
+
+   .. versionadded:: 2.7.0
+
+
+.. mixxx:control:: [ChannelN],beats_set_fivefourths
+                   [PreviewDeckN],beats_set_fivefourths
+                   [SamplerN],beats_set_fivefourths
+
+   Scale the :term:`BPM` to 5/4 of the current value.
+
+   :range: binary
+   :feedback: The :term:`beatgrid` lines adjust to 5/4 BPM.
+
+   .. versionadded:: 2.7.0
+
+
+.. mixxx:control:: [ChannelN],beats_set_fourthirds
+                   [PreviewDeckN],beats_set_fourthirds
+                   [SamplerN],beats_set_fourthirds
+
+   Scale the :term:`BPM` to 4/3 of the current value.
+
+   :range: binary
+   :feedback: The :term:`beatgrid` lines adjust to 4/3 BPM.
+
+   .. versionadded:: 2.7.0
+
+
+.. mixxx:control:: [ChannelN],beats_set_threehalves
+                   [PreviewDeckN],beats_set_threehalves
+                   [SamplerN],beats_set_threehalves
+
+   Scale the :term:`BPM` to 3/2 of the current value.
+
+   :range: binary
+   :feedback: The :term:`beatgrid` lines move closer to 3/2 distance.
+
+   .. versionadded:: 2.7.0
+
+
+.. mixxx:control:: [ChannelN],beats_set_double
+                   [PreviewDeckN],beats_set_double
+                   [SamplerN],beats_set_double
+
+   Scale the :term:`BPM` to double the current value.
+
+   :range: binary
+   :feedback: The :term:`beatgrid` lines move closer to half distance.
+
+   .. versionadded:: 2.7.0
+
+
 .. mixxx:control:: [ChannelN],beats_translate_curpos
                    [PreviewDeckN],beats_translate_curpos
                    [SamplerN],beats_translate_curpos
